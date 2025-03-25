@@ -86,6 +86,11 @@ body{
     color: #fff;
     flex-direction: column;
 }
+.ima{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
 .box-on{
  display: flex;
  justify-content: space-between;
@@ -140,8 +145,7 @@ button{
 }
 .dbba{
     display: flex;
-    border-radius: 10px;
-    border: 2px solid rgb(233, 231, 231);
+    
     height: 40vh;
     width:100vw;
     padding:10px 10px 10px 10px;
@@ -192,7 +196,7 @@ button{
 }
 .btn1:hover{
     width: 30%;
-    color: #fff;
+    background-color: #fff;
 }
 .btn2:hover{
     width: 30%;
@@ -203,8 +207,6 @@ button{
     display: flex;
     width:100vw ;
     margin: 15px;
-    border: 1px solid #fff;
-    border-radius: 10px;
     padding: 15px 15px;
 }
 .div1{
@@ -259,8 +261,6 @@ button{
     display: flex;
     width:100vw ;
     margin: 15px;
-    border: 1px solid #fff;
-    border-radius: 10px;
     padding: 15px 15px; 
    
 }
@@ -291,18 +291,22 @@ button{
     margin-left: 10px;
     height: 40vh;
     width: 67%;
-    display: flex;
+    /*display: flex;*/
     background-color: #fff;
     gap: 100px;
 }
+.part-3-4{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 .part-3{
-    
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 .part-4{
-   
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -310,6 +314,25 @@ button{
 .btns{
     display: flex;
     flex-direction: row;
+    gap: 50px;
+}
+.btn-1{
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+.btn-2{
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+.btns button{
+ background-color: rgb(83, 162, 232);
+}
+.btns button:hover{
+    background-color: #fff;
 }
 .imag{
     width: 20%;
