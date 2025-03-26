@@ -1,16 +1,22 @@
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background-color: rgb(185, 235, 221);
+   
+    padding: 10px;
 }
 .sec-1{
     height: 50vh;
     display: flex;
-    width:100vw ;
+    width:100%;
     margin: 15px;
     flex-direction: column;
+}
+#options{
+    border: none;
 }
 .Heading{
     display: flex;
@@ -28,7 +34,7 @@ body{
 .nav-bar{
     display: flex;
     height: 70px;
-    width: 100%;
+    width: 90%;
     /* flex-direction: column; */
     justify-content: space-between;
 }
@@ -46,12 +52,13 @@ body{
 }
 .box{
     height: 245px;
-    width: 300px;
+    width: 30vw;
     border-radius: 10px ;
     border: 1px solid white;
     background-color: #fff;
     gap: 5px;
     padding: 10px 10px;
+    margin-left: 10px;
 }
 .image{
     margin-left: 15px;
@@ -63,7 +70,7 @@ body{
 }
 .box2{
     height: 100px;
-    width: 300px;
+    width: 20vw;
     border-radius: 10px ;
     border: 1px solid white;
     background-color: #fff;
@@ -76,7 +83,7 @@ body{
 }
 .box3{
     height: 245px;
-    width: 400px;
+    width: 40vw;
     border-radius: 10px ;
     border: 1px solid white;
     background-color: #4b9bf0;
@@ -94,6 +101,7 @@ body{
 .box-on{
  display: flex;
  justify-content: space-between;
+ width: 30%;
 }
 .box-off{
     display: flex;
@@ -146,8 +154,8 @@ button{
 .dbba{
     display: flex;
     
-    height: 40vh;
-    width:100vw;
+    height: 250px;
+    
     padding:10px 10px 10px 10px;
     gap: 20px;
     justify-content:space-around;
@@ -155,23 +163,27 @@ button{
 }
 .dbba2{
     display: flex;
+    width: 30%;
     gap: 20px;
    flex-direction: column;
 }
 .dbba3{
     display: flex;
     gap: 20px;
+    width: 30%;
     flex-direction: column;
 }
 .headd{
     display: flex;
+    width: 100%;
     margin-left: 0;
-    gap: 120px;
+    gap: 96px;
 }
 .headdd{
     display: flex;
+    width: 100%;
     margin-left: 10px;
-    gap: 120px;
+    gap:96px;
 }
 .butn{
     margin-top: 20px;
@@ -183,14 +195,12 @@ button{
 .btn1{
     border-radius: 5px;
     background-color: white;
-    cursor: pointer;
     border: 1px solid #fff;
     width: 40%;  
 }
 .btn2{
     border-radius: 5px;
-    background-color: white;
-    cursor: pointer;
+    background-color: rgb(245, 238, 238);
     border: 1px solid #fff;
     width: 30%;  
 }
@@ -211,16 +221,16 @@ button{
 }
 .div1{
     height: 18vh;
-    width: 67%;
+    width: 62%;
     display: flex;
     background-color: #fff;
     padding: 15px 15px;
     border-radius: 10px;
-    gap: 200px;
+    gap: 35px;
     justify-content: center;
 }
 .div2{
-    margin-left: 3%;
+    margin-left: 2%;
     height: 25vh;
     width: 25%;
     display: flex;
@@ -266,7 +276,7 @@ button{
 }
 .part1{
     height: 40vh;
-    width: 67%;
+    width: 64%;
     display: flex;
     background-color: #fff;
     padding: 20px 10px;
@@ -321,6 +331,7 @@ button{
     border: 1px solid black;
     border-radius: 5px;
     width: 30%;
+   
 }
 .btn-2{
     margin-right: 20px;
@@ -345,3 +356,28 @@ button{
 .custom{
     margin-top: 20px;
 }
+.grph-img{
+    height: 360px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.nav2-2{
+    margin-left: 40px;
+}
+.nav2{
+    margin-bottom: 0;
+}
+.yo{
+    margin-top: 20px;
+    font-size: larger;
+}
+.yoyo input{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgb(194, 190, 190);
+    border: none;
+}
+ .hed2{
+    background-color: gray;
+ }
